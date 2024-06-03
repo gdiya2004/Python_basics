@@ -1,0 +1,2 @@
+d())
+# print(f.tell())

@@ -1,0 +1,24 @@
+'user friendly + readable+ light weight + easy to read than Xml'
+'javascript ke saath attached ho'
+'json-->javascript object notation'
+'comments are not supported in json'
+'XML-->extensible markup language similar to HTML but designed to store and transport data rather than to display it.''
+'json:javascript ka object hai'
+'single quotes are not used in json'
+'JSON.parse() is javascript function used to parse(interpretting JSON-formatted strings and converting it to data structure that can easily be manipulated and used in language like js.) JSON strings into Javascript objects'
+myJson=`{
+   "name":"Diya",
+   "score":11.75, 
+   "isAdmin":false,
+   "License":null,
+   "shopItem":["food","clothes","sunflower"],
+   "myObj":{
+    "name":"nested",
+    "marks":40,
+    "shopItem2":["food","clothes",{"a":"true"}]
+   }
+}`;
+parsed=JSON.parse(myJson);
+parsed["isAdmin"];
+parsed["shopItem"][2]
+parsed["myObj"]["shopitem2"][2]["a"]

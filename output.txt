@@ -1,0 +1,7 @@
+Advantage of flowchart:
+*communication
+*effective analysis
+*proper documentation
+*efficient coding
+*proper debugging
+*efficient program maintainance
